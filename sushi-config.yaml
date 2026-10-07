@@ -12,3 +12,10 @@ publisher:
   url: http://www.hl7.org/Special/committees/orders
   email: oo@lists.hl7.org
 
+menu:
+  Home: index.html
+  Clinical Workflow: clinical-workflow.html
+  Task Profiles: artifacts.html#structures-resource-profiles
+  Conformance: conformance.html
+  Examples: examples.html
+  Artifacts: artifacts.html
