@@ -1,0 +1,14 @@
+id: hl7.fhir.uv.nl-coordination-clinical-workflows
+canonical: http://hl7.org/fhir/uv/nl-coordination-clinical-workflows
+name: NLCoordinationClinicalWorkflows
+title: NL Profiles for Clinical Workflows
+status: draft
+version: 0.0.1-alpha
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: CI Build
+publisher:
+  name: HL7 International / Orders and Observations
+  url: http://www.hl7.org/Special/committees/orders
+  email: oo@lists.hl7.org
+

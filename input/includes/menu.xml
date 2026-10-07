@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns="http://www.w3.org/1999/xhtml">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="clinical-workflow.html">Clinical Workflow</a></li>
+  <li><a href="artifacts.html#structures-resource-profiles">Task Profiles</a></li>
+  <li><a href="conformance.html">Conformance</a></li>
+  <li><a href="examples.html">Examples</a></li>
+  <li><a href="artifacts.html">Artifacts</a></li>
+</menu>

@@ -1,0 +1,27 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "ig-empty",
+  "url": "http://example.org/fhir/ImplementationGuide/ig-empty",
+  "version": "0.1.0",
+  "name": "IGEmpty",
+  "title": "Blank FHIR IG",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "Example Organization",
+  "packageId": "example.fhir.ig.blank",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "page": {
+      "nameUrl": "index.html",
+      "title": "Home",
+      "generation": "markdown"
+    },
+    "parameter": [
+      { "code": "apply", "value": "version" },
+      { "code": "releaselabel", "value": "CI Build" },
+      { "code": "copyrightyear", "value": "2026+" }
+    ]
+  }
+}

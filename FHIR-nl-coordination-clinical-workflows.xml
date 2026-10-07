@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="oo" url="http://hl7.org/fhir/uv/nl-coordination-clinical-workflows">
+<version code="current" url=""/>
+<artifactPageExtension value="-definitions"/>
+<artifactPageExtension value="-examples"/>
+<artifactPageExtension value="-mappings"/>
+<artifact id="Task/Example-NLCancellationRequestTask" key="Task-Example-NLCancellationRequestTask" name="Example NL Cancellation Request Task"/>
+<artifact id="Task/Example-NLCoordinationTask" key="Task-Example-NLCoordinationTask" name="Example NL Coordination Task"/>
+<artifact id="Organization/Example-NLCoordinationOrganization" key="Organization-Example-NLCoordinationOrganization" name="Example-NLCoordinationOrganization"/>
+<artifact id="Patient/Example-NLCoordinationPatient" key="Patient-Example-NLCoordinationPatient" name="Example-NLCoordinationPatient"/>
+<artifact id="Practitioner/Example-NLCoordinationPractitioner" key="Practitioner-Example-NLCoordinationPractitioner" name="Example-NLCoordinationPractitioner"/>
+<artifact id="ServiceRequest/Example-NLCoordinationServiceRequest" key="ServiceRequest-Example-NLCoordinationServiceRequest" name="Example-NLCoordinationServiceRequest"/>
+<artifact id="StructureDefinition/NLCancellationRequestTask" key="StructureDefinition-NLCancellationRequestTask" name="NL Cancellation Request Task"/>
+<artifact id="StructureDefinition/NLCoordinationTask" key="StructureDefinition-NLCoordinationTask" name="NL Coordination Task"/>
+<artifact id="CapabilityStatement/NLCoordinationWorkflowCapabilityStatement" key="CapabilityStatement-NLCoordinationWorkflowCapabilityStatement" name="NL Coordination Workflow Capability Statement"/>
+<artifact id="CodeSystem/nl-task-parameter" key="CodeSystem-nl-task-parameter" name="NL Task Parameter"/>
+<artifact id="SearchParameter/NLCoordinationTaskFocusSearchParameter" key="SearchParameter-NLCoordinationTaskFocusSearchParameter" name="NLCoordinationTaskFocusSearchParameter"/>
+<artifact id="SearchParameter/NLCoordinationTaskOwnerSearchParameter" key="SearchParameter-NLCoordinationTaskOwnerSearchParameter" name="NLCoordinationTaskOwnerSearchParameter"/>
+<artifact id="SearchParameter/NLCoordinationTaskStatusSearchParameter" key="SearchParameter-NLCoordinationTaskStatusSearchParameter" name="NLCoordinationTaskStatusSearchParameter"/>
+<page key="NA" name="(NA)"/>
+<page key="many" name="(many)"/>
+<page key="artifacts" name="Artifacts Summary"/>
+<page key="clinical-workflow" name="Clinical Workflow"/>
+<page key="conformance" name="Conformance"/>
+<page key="examples" name="Examples"/>
+<page key="index" name="Home"/>
+<page key="toc" name="Table of Contents"/>
+</specification>

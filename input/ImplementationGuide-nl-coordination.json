@@ -1,0 +1,130 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "nl-coordination-clinical-workflows",
+  "url": "http://example.org/fhir/ImplementationGuide/nl-coordination-clinical-workflows",
+  "version": "0.0.1-alpha",
+  "name": "NLCoordinationClinicalWorkflows",
+  "title": "NL Coordination Clinical Workflows",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "Example Organization",
+  "description": "Clinical workflow guidance and care coordination tasks for Dutch healthcare pathways.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "NL",
+          "display": "Netherlands"
+        }
+      ]
+    }
+  ],
+  "packageId": "example.fhir.nlcoordination",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/NLCoordinationTask"
+        },
+        "name": "NL Coordination Task profile",
+        "description": "Task profile for coordinating clinical work across care teams.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/NLCancellationRequestTask"
+        },
+        "name": "NL Cancellation Request Task profile",
+        "description": "Task profile for requesting cancellation of an in-progress coordination task.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/nl-coordination-task-focus"
+        },
+        "name": "NL Coordination Task Focus Search Parameter",
+        "description": "Search parameter for Task.focus.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/nl-coordination-task-owner"
+        },
+        "name": "NL Coordination Task Owner Search Parameter",
+        "description": "Search parameter for Task.owner.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/nl-coordination-task-status"
+        },
+        "name": "NL Coordination Task Status Search Parameter",
+        "description": "Search parameter for Task.status.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CapabilityStatement/nl-coordination-workflow"
+        },
+        "name": "NL Coordination Workflow Capability Statement",
+        "description": "Capability statement for implementing the coordination workflow.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Task/Example-NLCoordinationTask"
+        },
+        "name": "Example NL Coordination Task",
+        "description": "Illustrative example showing a task used for care coordination.",
+        "exampleCanonical": "http://example.org/fhir/StructureDefinition/NLCoordinationTask"
+      },
+      {
+        "reference": {
+          "reference": "Task/Example-NLCancellationRequestTask"
+        },
+        "name": "Example NL Cancellation Request Task",
+        "description": "Illustrative example showing a task used to request cancellation of a coordination workflow.",
+        "exampleCanonical": "http://example.org/fhir/StructureDefinition/NLCancellationRequestTask"
+      },
+      {
+        "reference": {
+          "reference": "ServiceRequest/Example-NLCoordinationServiceRequest"
+        },
+        "name": "Example NL Coordination ServiceRequest",
+        "description": "Example request referenced by the coordination task.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Patient/Example-NLCoordinationPatient"
+        },
+        "name": "Example NL Coordination Patient",
+        "description": "Example patient context for the coordination workflow.",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "index.html",
+      "title": "Home",
+      "generation": "markdown"
+    },
+    "parameter": [
+      {
+        "code": "apply",
+        "value": "version"
+      },
+      {
+        "code": "releaselabel",
+        "value": "CI Build"
+      },
+      {
+        "code": "copyrightyear",
+        "value": "2026+"
+      }
+    ]
+  }
+}

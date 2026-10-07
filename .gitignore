@@ -1,0 +1,9 @@
+input-cache/
+out/
+archive/
+**/.DS_Store
+temp
+output
+temp
+template
+fsh-generated
